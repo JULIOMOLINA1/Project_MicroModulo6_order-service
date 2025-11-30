@@ -12,3 +12,12 @@ spring:
   flyway:
     enabled: false
 
+# Mock Service URLs for tests
+product:
+  service:
+    url: http://localhost:8082
+
+user:
+  service:
+    url: http://localhost:8081
+
