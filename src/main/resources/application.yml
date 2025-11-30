@@ -1,0 +1,9 @@
+server:
+  port: 8083
+
+spring:
+  profiles:
+    active: local
+
+  application:
+    name: order-service
